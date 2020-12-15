@@ -5,6 +5,7 @@ Try it: https://a-list-bulding-tool.toolforge.org/API/?wiki_db=enwiki&QID=Q82069
 inputs:
 * QID: Wikidata id (seed), eg Q82069695
 * wiki_db: Wikimedia project db, eg: enwiki
+
 output:
  * List of articles in wiki_db related to QID
  
