@@ -5,8 +5,10 @@ from flask import request
 import flask
 import toolforge
 from flask import jsonify
+from flask_cors import CORS
 
 app = flask.Flask(__name__)
+CORS(app)
 
 @app.route('/')
 def index():
